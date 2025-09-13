@@ -7,20 +7,19 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/bue221',
-  linkedin: 'https://www.linkedin.com/in/bue221/',
-  mail: 'mailto:camiloplaza3@gmail.com',
-  instagram: 'https://www.instagram.com/caj_ink/',
-  medium: 'https://ladvace.medium.com/',
-  discord: 'https://discordapp.com/users/163300027618295808',
+  github: 'https://github.com',
+  linkedin: 'https://www.linkedin.com/in/aditya-mishra-986593181',
+  mail: 'mailto:mindreadermishraji@gmail.com',
+  instagram: 'https://www.instagram.com/adi.tya123459127?utm_source=qr&igsh=NWUxengxajMwOTA2',
+  
+  
 }
 
 // Global
 export const SITE: Site = {
-  TITLE: 'Astro Sphere',
-  DESCRIPTION:
-    'Welcome to Astro Sphere, a portfolio and blog for designers and developers.',
-  AUTHOR: 'Mark Horn',
+  TITLE: 'Aditya Mishra - Business Enthusiast',
+  DESCRIPTION: 'Welcome to the portfolio and blog of Aditya Mishra. Passionate about business, innovation, and creating impactful solutions.',
+  AUTHOR: 'Aditya Mishra',
 }
 
 // Work Page
@@ -76,85 +75,57 @@ export const STUDIES = [
   {
     title: 'Tattoo Artist',
     institution: 'Tattoo Academy',
-    link: 'https://www.instagram.com/tattoodcacademy/',
+    link: 'https://www.instagram.com/',
     date: '2024 - 2025',
   },
 ]
 
 export const EXPERIENCE = [
   {
-    company: 'Straico',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software Engineer',
-    start: '2021',
-    link: 'https://straico.com/',
-    end: 'Current',
-    tasks: [
-      'Integration IA services with react and tailwind css',
-      'Development and build of DB with mongoDB',
-    ],
+   company: 'NexGen Engineering Solutions',
+location: 'Delhi, India',
+position: 'Project Mechanical Engineer',
+start: '2021',
+end: 'Current',
+link: 'https://nexgeneng.com/',
+tasks: [
+'Managed full lifecycle product development from concept design to final commissioning',
+'Performed data analysis and interpreted test results to improve product designs',
+'Coordinated with cross-functional teams to meet project deadlines and budgets',
+'Led troubleshooting and maintenance initiatives to resolve mechanical system issues',
+],
+
+
   },
   {
-    company: 'Spot2',
-    location: 'Mexico City, Mexico',
-    position: 'Software Engineer',
-    link: 'https://spot2.mx/',
-    start: '2021',
-    end: 'Current',
-    tasks: [
-      'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-      'Development map with the use of Google Maps API',
-      'Development internal platform with the use of React, Redux, and Material UI',
-      'Testing and debugging',
-    ],
+    company: 'DesignWave Tech',
+location: 'New Delhi, India',
+position: 'Mechanical Design Engineer',
+start: '2020',
+end: '2023',
+link: 'https://designwave.in/',
+tasks: [
+'Created detailed design plans and 3D CAD models for mechanical products',
+'Used simulation tools for testing mechanical system performance',
+'Ensured project compliance with safety and quality standards',
+'Provided technical advice and supported manufacturing teams during product assembly',
+],
   },
   {
-    company: 'Imaginamos',
-    link: 'https://imaginamos.com/',
-    location: 'Bogotá D C, Colombia',
-    position: 'Frontend developer',
-    start: '2021',
-    end: '2021',
-    tasks: [
-      'Development of the Imaginamos platform with the use of React, Redux, and Material UI',
-      'Work in ETB project with the use of React, Redux, and Material UI',
-    ],
+    company: 'Starico Private Limited',
+location: 'New Delhi, India',
+position: 'Mechanical Engineer',
+start: '2018',
+end: '2021',
+link: 'https://staricopvtltd.com/',
+tasks: [
+'Designed and developed mechanical components and systems using CAD software',
+'Conducted testing and evaluation of prototypes to ensure safety and reliability',
+'Collaborated with manufacturing teams to optimize production processes',
+'Prepared technical documentation and reports for project stakeholders',
+],
   },
-  {
-    company: 'INETUM',
-    location: 'Bogotá D C, Colombia',
-    position: 'Frontend developer',
-    start: '2021',
-    link: 'https://www.inetum.com/es',
-    end: '2021',
-    tasks: [
-      'Support in the QA area and bug review',
-      'Use of SCRUM methodology',
-      'Claro projects with the use of frameworks and libraries such as react and angular',
-      'Use of redux toolkit as aproposal which allowed a shorter development time when using this tool',
-    ],
-  },
-  {
-    company: 'S I G',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software developer',
-    start: '2021',
-    end: '2021',
-    tasks: [
-      'Development of a dashboard with react admin and chartjs for managing and entering information',
-    ],
-  },
-  {
-    company: 'BOOKII',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software developer',
-    start: '2019',
-    end: '2021',
-    tasks: [
-      'Productive collaborationwiththebackendteamforthecreationofthe conversationalclubs',
-      'Effective coding of conversational clubs following design guide lines and using the Redux statemanager',
-      'Creation of the Bookii page in Spanish and change of texts in cms',
-      'Generation of static posts using Gatsby and the Contentful cms for the Bookii blog',
-    ],
-  },
+  
+  
+ 
 ]
