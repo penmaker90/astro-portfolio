@@ -5,21 +5,39 @@ import TopLayout from '../layouts/TopLayout.astro'
 import BottomLayout from '../layouts/BottomLayout.astro'
 import ProjectCard from '../components/ProjectCard.astro'
 
-import { contentfulClient } from '../lib/contentful'
-import { documentToHtmlString } from '@contentful/rich-text-html-renderer'
-import type { EntryFieldTypes } from 'contentful'
-
-interface Project {
-  contentTypeId: 'Projects'
-  fields: {
-    name: EntryFieldTypes.Text
-    img: EntryFieldTypes.AssetLink
-    website: EntryFieldTypes.EntryResourceLink<any>
-    repositorio: EntryFieldTypes.EntryResourceLink<any>
+// Static project data to replace Contentful
+const projects = [
+  {
+    sys: { id: '1' },
+    fields: {
+      name: 'Portfolio Website',
+      description: 'Personal portfolio built with Astro and React',
+      website: 'https://github.com/yourusername/portfolio',
+      img: {
+        fields: {
+          file: { url: '/me.png' },
+          title: 'Portfolio Website'
+        }
+      }
+    }
+  },
+  {
+    sys: { id: '2' },
+    fields: {
+      name: 'Sample Project',
+      description: 'A sample project for demonstration',
+      website: 'https://github.com/yourusername/sample-project',
+      img: {
+        fields: {
+          file: { url: '/me_hello.png' },
+          title: 'Sample Project'
+        }
+      }
+    }
   }
-}
+]
 
-const entries = await contentfulClient.getEntries<Project>({})
+const entries = { items: projects }
 ---
 
 <BaseLayout
